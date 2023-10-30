@@ -1,0 +1,83 @@
+.App {
+    text-align: center;
+}
+
+html{
+    padding: 1%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/782/710/non_2x/video-games-banner-cyber-game-background-vector.jpg');
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.App{
+    padding: 1%;
+}
+
+.input-field {
+    color: rgb(107, 1, 186);
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgb(200, 200, 200);
+    font-size: 14px;
+    border: none;
+    width: 180px;
+    height: 39px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 15px #574ea6;
+    text-align: center;
+}
+
+.input-field::placeholder{
+    color: rgb(142, 4, 201);
+}
+
+button {
+    background-color: #14457a;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(2, 177, 253);
+    width: 120px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 15px #2370ff;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.button.button{
+    margin-left: 5px;
+}
+
+img{
+    box-shadow: 5px 5px 15px #6800f8;
+    border-radius: 10px 10px 10px 10px;
+    transition: transform 0.5s;
+    margin-bottom: 2%;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    color: rgba(0, 73, 231, 0.856);
+    text-shadow: 5px 5px 20px #000000;
+}
+
+div.game-filter{
+    margin-bottom: 50px;
+}
+
+h1{
+    justify-content: center;
+    color: rgb(253, 253, 253);
+    text-shadow: 5px 5px 20px #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
